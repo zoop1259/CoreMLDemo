@@ -13,6 +13,8 @@
 		C59A2F5229105F790058D02A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59A2F5029105F790058D02A /* Main.storyboard */; };
 		C59A2F5429105F7C0058D02A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59A2F5329105F7C0058D02A /* Assets.xcassets */; };
 		C59A2F5729105F7C0058D02A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59A2F5529105F7C0058D02A /* LaunchScreen.storyboard */; };
+		C59A2F5F29105FF60058D02A /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C59A2F5E29105FF60058D02A /* GoogLeNetPlaces.mlmodel */; };
+		C59A2F612910602C0058D02A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59A2F602910602B0058D02A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		C59A2F5329105F7C0058D02A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C59A2F5629105F7C0058D02A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C59A2F5829105F7C0058D02A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59A2F5E29105FF60058D02A /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = "../../../../Downloads/CoreMLDemo-YT-main/CoreMLDemo/GoogLeNetPlaces.mlmodel"; sourceTree = "<group>"; };
+		C59A2F602910602B0058D02A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = "../../../../Downloads/CoreMLDemo-YT-main/CoreMLDemo/Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				C59A2F5329105F7C0058D02A /* Assets.xcassets */,
 				C59A2F5529105F7C0058D02A /* LaunchScreen.storyboard */,
 				C59A2F5829105F7C0058D02A /* Info.plist */,
+				C59A2F5E29105FF60058D02A /* GoogLeNetPlaces.mlmodel */,
+				C59A2F602910602B0058D02A /* Extensions.swift */,
 			);
 			path = CoreMLDemo;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C59A2F612910602C0058D02A /* Extensions.swift in Sources */,
 				C59A2F4F29105F790058D02A /* ViewController.swift in Sources */,
 				C59A2F4B29105F790058D02A /* AppDelegate.swift in Sources */,
 				C59A2F4D29105F790058D02A /* SceneDelegate.swift in Sources */,
+				C59A2F5F29105FF60058D02A /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
